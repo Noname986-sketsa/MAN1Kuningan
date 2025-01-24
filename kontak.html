@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil MAN 1 Kuningan</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #daff06;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .nav-bar {
+            background-color: #00802b;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav-bar a:hover {
+            background-color: #006622;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 30px;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            text-align: center;
+            color: #00802b;
+        }
+
+        .contact {
+            margin-top: 30px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #00802b;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #006622;
+        }
+
+        .map {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .map iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 30px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        .social-icons a:hover {
+            color: #00802b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="MAN1.png" alt="Logo MAN 2 Kuningan" style="width: 150px;">
+ 
+    </div>
+
+    <div class="nav-bar">
+        <a href="home.html">Home</a>
+        <a href="Profil.html">Profil</a>
+        <a href="Ekstrakurikuler.html">Ekstrakurikuler</a>
+        <a href="bording.html">Fasilitas</a>
+        <a href="kontak.html">Contact</a>
+    </div>
+
+    <div class="content">
+        <div class="contact">
+            <h2>Kontak Kami</h2>
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+
+        <div class="content">
+            <h2>Lokasi Kami</h2>
+            <div class="map">
+                <iframe 
+                    src="https://g.co/kgs/UCVaQ5e" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>        
+    </div>
+
+    <div class="footer">
+        &copy; 2024 MAN 1 Kuningan. All rights reserved.
+        <div class="social-icons">
+            <a href="https://www.instagram.com/man_1_kuningan/?igsh=MWtsMTB1aTYzcDJnMg==" target="_blank" title="Instagram">
+                <img src="ig.png" alt="Instagram" style="width: 24px; vertical-align: middle;">
+            </a>
+            <a href="https://www.google.com/search?client=firefox-b-d&q=lokasi+man+1+kuninhgan#" target="_blank" title="WhatsApp">
+                <img src="wa.png" alt="WhatsApp" style="width: 24px; vertical-align: middle;">
+            </a>
+            <a href="https://www.youtube.com/@man1kuningan357" target="_blank" title="YouTube">
+                <img src="yt.png" alt="YouTube" style="width: 24px; vertical-align: middle;">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
